@@ -1,0 +1,129 @@
+body{
+	background-color: #001524;
+}
+
+.main{
+	padding-top: 72px;
+}
+
+.menu-btn svg{
+	color: #fff;
+}
+
+.menu-btn{
+	padding: .1rem .2rem;
+	border: 1px solid #fff;
+	border-radius: .3rem;
+	outline: none;
+}
+
+.menu-btn:focus{
+	outline: none;
+}
+
+.heading{
+	width: 100%;
+    max-width: 420px;
+    font-size: 3.5rem;
+}
+
+span{
+	color: #eb1d25;
+}
+
+.heading-para{
+	color: #9c9c9c;
+}
+
+.primary-btn{
+	padding: .5rem;
+	color: #fff;
+	background-color: #eb1d25;
+	border-radius: .3rem;	
+}
+
+a{
+	text-decoration:none !important;
+}
+
+a:hover{
+	color: #001524;
+}
+
+.pdct-info{
+	font-size: .9rem;
+}
+
+iframe{
+	width: 100%;
+	max-width: 500px;
+	height: 100%;
+	min-height: 300px;
+}
+
+#app_footer{
+	font-size: 13px;
+}
+
+.feather1{
+	padding: .1rem .5rem;
+	background-color: #001524;
+}
+
+.feather1 svg{
+	width: 13px;
+}
+
+.pwd a{
+	color: #eb1d25;
+}
+
+.app-nav-top{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #001524;
+	z-index: 1;
+}
+
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #001524;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#top-btn:hover {
+  background-color: #eb1d25;
+}
+
+a.active{
+	color: #eb1d25 !important;
+}
+
+.blue-line{
+	background-color: #001524;
+	height: 18px;
+	margin-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 410px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .reach {
+    font-size: 1.7rem;
+  }
+}
